@@ -1,4 +1,4 @@
-package com.design.patterns;
+package com.design.patterns.builder;
 
 public class Student {
     private int id;

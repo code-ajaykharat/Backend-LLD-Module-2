@@ -1,7 +1,7 @@
 package com.design;
 
-import com.design.patterns.Singleton;
-import com.design.patterns.Student;
+import com.design.patterns.singleton.Singleton;
+import com.design.patterns.builder.Student;
 
 public class Main {
     public static void main(String[] args) {

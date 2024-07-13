@@ -1,4 +1,4 @@
-package com.design.patterns;
+package com.design.patterns.singleton;
 
 public class Singleton {
     //class level ref. var to store object
