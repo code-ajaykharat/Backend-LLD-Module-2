@@ -1,7 +1,7 @@
 package com.design.patterns.adapter;
 
-public class YesBankAdapter implements BankAPI{
-    private YesBankAPI y;
+public class YesBankAdapter implements BankAPI{//inherit
+    private YesBankAPI y; // association
     public YesBankAdapter(YesBankAPI y){
         this.y = y;
     }

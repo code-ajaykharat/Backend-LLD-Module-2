@@ -5,9 +5,9 @@ import com.design.patterns.observer.batch.StudentBatch;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NewIphone implements NotificationService{//register,remove,notify,state
-    private List<StudentBatch> registeredBatches;
-    private String currentVersion;
+public class NewIphone implements NotificationService{//register,remove,notify+list,state
+    private List<StudentBatch> registeredBatches;//list
+    private String currentVersion;//state
 
     public NewIphone(){
         this.registeredBatches = new ArrayList<>();

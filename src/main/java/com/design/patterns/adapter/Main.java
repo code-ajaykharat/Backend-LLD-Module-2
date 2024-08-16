@@ -7,6 +7,7 @@ public class Main {
 //        System.out.println(p.fetchBalance("Ajay","1234"));
 //        System.out.println(p.pay("Ajay","1234","Abhay"));
 
+        //ADAPTER
         BankAPI b = new YesBankAdapter(new YesBankAPI());
 //        BankAPI b = new HDFCBankAdapter(new HDFCBankAPI()); //one line change only
         PhonePe p = new PhonePe(b);

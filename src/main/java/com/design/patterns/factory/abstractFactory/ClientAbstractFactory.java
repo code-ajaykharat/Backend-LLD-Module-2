@@ -23,7 +23,7 @@ public class ClientAbstractFactory {
         System.out.println("----------ANOTHER WAY-----------");
 
         //Android UI
-        FlutterUI ui = new AndroidUI();
+        FlutterUI ui = new AndroidUI();//1st line mention android - then downwards auto handel
         UIFactory factory = ui.createFactory1();
         Button btn2 = factory.createButton();
         btn2.display();

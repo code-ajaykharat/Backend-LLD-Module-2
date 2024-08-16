@@ -1,6 +1,6 @@
 package com.design.patterns.flyweight;
 
-public class TreeType {//intrinsic data
+public class TreeType {//intrinsic data - common & independent
     private String name;
     private String color;
 

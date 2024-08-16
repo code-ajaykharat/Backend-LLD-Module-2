@@ -1,7 +1,7 @@
 package com.design.patterns.adapter;
 
 public class PhonePe {
-    private BankAPI b;
+    private BankAPI b; // association
     public PhonePe(BankAPI b){
         this.b = b;
     }

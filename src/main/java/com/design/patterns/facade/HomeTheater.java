@@ -1,7 +1,7 @@
 package com.design.patterns.facade;
 
 public class HomeTheater {
-    public DVDPlayer dvdPlayer;
+    public DVDPlayer dvdPlayer;//association
     public Lights lights;
     public MusicSystem musicSystem;
     public Projector projector;
